@@ -1,0 +1,76 @@
+baseurl = "http://www.alexshen.com"
+title = "Alex Shen"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+
+[pagination]
+pagerSize = 20
+
+[services]
+[services.disqus]
+shortname = "AlexShen"
+
+[markup.highlight]
+style = "github-dark"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  author = "Alex Shen"
+  info = "Aspiring Software Engineer"
+  description = "Alex Shen personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/alex_shen.jpeg"
+  #gravatar = ""
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2019
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/alexshen21/"
+[[params.social]]
+  name = "Gitlab"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 2
+  url = "https://www.linkedin.com/in/alex-shen3/"
+
+# Menu links
+[[menu.main]]
+  name = "Experience"
+  weight = 1
+  url  = "experience/"
+[[menu.main]]
+  name = "About Me"
+  weight = 2
+  url = "aboutme/"
+[[menu.main]]
+  name = "Contact"
+  weight = 2
+  url = "contact/"
