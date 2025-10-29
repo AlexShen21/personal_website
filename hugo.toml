@@ -1,4 +1,4 @@
-baseurl = "https://alexshen21.github.io/personal_website"
+baseurl = "https://alexshen21.github.io/personal_website/"
 title = "Alex Shen"
 theme = "hugo-coder"
 languagecode = "en"
