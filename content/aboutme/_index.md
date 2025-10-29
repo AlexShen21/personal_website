@@ -30,7 +30,7 @@ This curiosity is what has ultimately led me to pursue my undergraduate and grad
 
 </div>
 	<div class="about-image">
-		<img src="../images/alex_shen.jpeg" alt="Alex Shen">
+		<img src="/personal_website/images/alex_shen.jpeg" alt="Alex Shen">
 	</div>
 </div>
 
